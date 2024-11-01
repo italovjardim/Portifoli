@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    height: 100vh;
+}
+
+#cabeçalho {
+    background-color:#161616;
+    height: 70px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.butao{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #2FB500;
+    text-decoration: none;
+  }
+
+  #svg{
+    padding-left: 300px;
+    padding-top: 100px;
+   }
+
+   #svg2{
+
+    position: absolute;
+    left: 20vw;
+    top: 20vw;
+
+   }
+   
+
+   #espaco{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ 
+   }
+
+   #rodape{
+    background-color:#161616be;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    display: grid;
+    background-size: cover;
+    
+   }
+
+   .email{
+    display: flex;
+    
+    align-items: center;
+    padding-left: 120px;
+  }
+
+  #colortext{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+   
+  }
+
+  #git {
+    width: 100%;
+    height: 100%;
+    padding-left: 600px;
+   }
+
+   #github{
+    padding: 0;
+    width: 100px;
+    }
+
+
+    abbr {color: #fff;
+    position: absolute;}
